@@ -1,7 +1,6 @@
 import HomePageContent from "../../Components/HomePageContent/HomePageContent";
-
 function HomePage() {
-  return <HomePageContentHuman />;
+  return <HomePageContent />;
 }
 
 export default HomePage;
