@@ -1,9 +1,42 @@
 import Style from "./HomePageContent.module.css";
 import haunted from "../../assets/haunted.jpg";
 import haunted2 from "../../assets/haunted-mansion-feat2.png";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+
 function HomePageContent() {
+  function MapPlaceholder() {
+    return (
+      <p>
+        Castle of bran.
+        <noscript>You need to enable JavaScript to see this map.</noscript>
+      </p>
+    );
+  }
+
+  function MapWithPlaceholder() {
+    return (
+      //view App.css for map style
+      <MapContainer
+        center={[45.51508, 25.36709]}
+        zoom={13}
+        scrollWheelZoom={true}
+        placeholder={<MapPlaceholder />}
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker position={[45.51508, 25.36709]}>
+          <Popup>
+            <p className={Style.Hotel_location}>We are here !</p>
+          </Popup>
+        </Marker>
+      </MapContainer>
+    );
+  }
   return (
     <div className={Style.HomePageContent_container}>
       <div className={Style.Slider_container}>
@@ -57,7 +90,7 @@ function HomePageContent() {
           </div>
         </div>
         <div className={Style.Map_container}>
-          {/* <img src={haunted}></img> */}
+          <MapWithPlaceholder />
         </div>
       </div>
     </div>
@@ -65,5 +98,3 @@ function HomePageContent() {
 }
 
 export default HomePageContent;
-//Pourquoi
-//Concept
