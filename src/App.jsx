@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Footer />}>
-            <Route path="/Rules" element={<RulesPage />} />
+            <Route path="/RulesPage" element={<RulesPage />} />
             <Route path="/About-us" element={<AboutUsPage />} />
           </Route>
         </Routes>
@@ -27,6 +27,7 @@ function App() {
             <Route path="/ActivityPage" element={<ActivityPage />} />
             <Route path="/ReservationPage" element={<ReservationPage />} />
             <Route path="/ContactPage" element={<ContactPage />} />
+            <Route path="/RulesPage" element={<RulesPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
