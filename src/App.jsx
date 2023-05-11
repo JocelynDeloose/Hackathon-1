@@ -14,19 +14,19 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Footer />}>
-            <Route path="/Rules" element={<RulesPage />} />
-            <Route path="/About-us" element={<AboutUsPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
-        <Routes>
           <Route path="/" element={<Navbar />}>
             <Route path="/" element={<HomePage />} />
             <Route path="/ActivityPage" element={<ActivityPage />} />
             <Route path="/ReservationPage" element={<ReservationPage />} />
             <Route path="/ContactPage" element={<ContactPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Footer />}>
+            <Route path="/Rules" element={<RulesPage />} />
+            <Route path="/About-us" element={<AboutUsPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
