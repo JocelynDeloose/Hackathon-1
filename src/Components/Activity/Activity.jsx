@@ -12,7 +12,7 @@ const arrayOfActivity = [
     name: "Escape Game",
     img: `${photoEscape}`,
     description:
-      "Vous et votre équipe devaient trouver la clé permettant d'ouvrir la porte de sortie en resolvant tous un tas d'enigme plus torduent les une des autres",
+      "Vous et votre équipe devaient trouver la clé permettant d'ouvrir la porte de sortie en resolvant tous un tas d'enigmes plus torduent les une des autres",
     durée: "1h30",
   },
   {

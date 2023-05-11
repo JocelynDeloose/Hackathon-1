@@ -15,4 +15,5 @@
   height: 60%;
   margin: 5%;
   margin-left: 10vw;
+  overflow-y: scroll;
 }
