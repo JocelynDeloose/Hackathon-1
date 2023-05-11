@@ -8,7 +8,7 @@ function Footer() {
       <div>
         <ul className={styles.list}>
           <li className={styles.nav}>
-            <NavLink to="/Rules">Rules</NavLink>
+            <NavLink to="/RulesPage">Rules</NavLink>
           </li>
           <li className={styles.nav}>
             <NavLink to="/About-us">About-us</NavLink>
