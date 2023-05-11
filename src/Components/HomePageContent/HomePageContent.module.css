@@ -1,0 +1,56 @@
+.HomePageContent_container {
+  height: 100vh;
+  padding: 0;
+}
+.Slider_container {
+  width: 100vw;
+  height: 40%;
+  position: relative;
+}
+.Slider_title {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; /** Y-axis align **/
+  justify-content: center; /** X-axis align **/
+}
+.Slider_under_title {
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; /** Y-axis align **/
+  justify-content: center; /** X-axis align **/
+}
+.Slider_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Text_container {
+  margin-top: 5%;
+  width: 45%;
+  float: right;
+}
+.Map_container {
+  margin-top: 5%;
+  width: 45%;
+  float: left;
+}
+.Why_container {
+  margin-top: 5%;
+}
+.Why_title {
+}
+.Why_paragraph {
+}
+.Concept_container {
+}
+.Concept_title {
+}
+.Concept_paragraph {
+}
