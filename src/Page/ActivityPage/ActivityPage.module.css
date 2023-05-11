@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.activity {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  font-family: "Creepster", cursive;
+  overflow-y: hidden, scroll;
+}
+
+.titreHead {
+  font-size: 7rem;
+}

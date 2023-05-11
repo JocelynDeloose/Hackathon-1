@@ -9,41 +9,44 @@ import styles from "./Activity.module.css";
 
 const arrayOfActivity = [
   {
-    name: "Escape Room",
+    name: "Escape Game",
     img: `${photoEscape}`,
     description:
-      "Your team and you have to espace of this room, for this you have to resolve somme mystery",
+      "Vous et votre équipe devaient trouver la clé permettant d'ouvrir la porte de sortie en resolvant tous un tas d'enigme plus torduent les une des autres",
     durée: "1h30",
   },
   {
-    name: "cinema",
+    name: "Cinema",
     img: `${photoCinema}`,
-    description: "some horror movies for you",
+    description: "Un choix de film d'horreur à vous faire frissonner",
     durée: "~2h",
   },
   {
-    name: "Immunity",
+    name: "Immunité",
     img: `${photoImmun}`,
-    description: "it's a fight for win the immunity",
+    description:
+      "L'épreuve la plus froide de cette aventure, battez-vous pour la réussir",
     durée: "1H",
   },
   {
-    name: "orienteering",
+    name: "Course d'orientation",
     img: `${photoCourse}`,
-    description: "this is a race in the wood, only one winner",
+    description:
+      "Une course d'orientation à travers une foret où vous n'avez pas envie de vous retrouvez seul",
     durée: "3h",
   },
   {
-    name: "treasure hunt",
+    name: "Chasse aux trésors",
     img: `${photoChasse}`,
     description:
-      "During your stay, you can find two items, don't forget this, may be them save you...",
-    durée: "all time",
+      "Pendant tout le long de votre aventure, vous pourrez prendre du temps afin de trouver deux objets qui vous assurerons un avantage certain, pensez-y cela pourrait vous sauvez la vie",
+    durée: "pas de durée",
   },
   {
-    name: "hide and seek",
+    name: "Cache cache",
     img: `${photoHide}`,
-    description: "During this game, you have to hide you, we seek you",
+    description:
+      "Un jeu pour enfant?? Détrompez-vous, vous allez sentir un frisson vous parcourir la nuque et une bonne suée froide",
     durée: "1h",
   },
 ];
