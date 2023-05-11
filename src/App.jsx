@@ -1,5 +1,12 @@
 import "./App.css";
+import Activity from "./Components/Activity/Activity";
 
-function App() {}
+function App() {
+  return (
+    <div>
+      <Activity />
+    </div>
+  );
+}
 
 export default App;
