@@ -1,12 +1,24 @@
 import Style from "./HomePageContent.module.css";
 import haunted from "../../assets/haunted.jpg";
+import haunted2 from "../../assets/haunted-mansion-feat2.png";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 function HomePageContent() {
   return (
     <div className={Style.HomePageContent_container}>
       <div className={Style.Slider_container}>
         <h1 className={Style.Slider_title}>BloodyCastle</h1>
         <h2 className={Style.Slider_under_title}>Will you dare to go there?</h2>
-        <img className={Style.Slider_image} src={haunted} alt="" />
+        <Carousel
+          dynamicHeight={true}
+          showArrows={false}
+          showStatus={false}
+          autoPlay={true}
+          showThumbs={false}
+        >
+          <img className={Style.Slider_image} src={haunted} />
+          <img className={Style.Slider_image} src={haunted2} />
+        </Carousel>
       </div>
       <div className={Style.Text_container}>
         <div className={Style.Concept_container}>
@@ -39,9 +51,9 @@ function HomePageContent() {
             version)
           </p>
         </div>
-      </div>
-      <div className={Style.Map_container}>
-        <img></img>
+        <div className={Style.Map_container}>
+          {/* <img src={haunted}></img> */}
+        </div>
       </div>
     </div>
   );

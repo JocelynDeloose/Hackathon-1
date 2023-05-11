@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0;
 }
+.rsis-image,
+.rsis-image::before,
+.rsis-image::after {
+  background-size: cover !important;
+  background-position: 50% 50%;
+}
+.rsis-container {
+}
