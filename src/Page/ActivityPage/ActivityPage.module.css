@@ -6,6 +6,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-position: 50% 50%;
 }
 
 .activity {

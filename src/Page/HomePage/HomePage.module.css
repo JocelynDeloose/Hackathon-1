@@ -88,6 +88,7 @@
 .Why_paragraph {
   font-size: var(--paraSize);
   text-shadow: var(--textShadow);
+  font-weight: 400;
 }
 .Concept_title {
   text-align: center;
