@@ -3,6 +3,8 @@
   align-content: center;
   height: 85vh;
   align-items: center;
+  min-height: 100vh;
+  flex-grow: 1;
 }
 
 .Reservation_cards_container {

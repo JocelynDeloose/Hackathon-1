@@ -6,7 +6,11 @@
     rgba(174, 37, 38, 1) 0%,
     rgba(24, 22, 22, 0.9417016806722689) 100%
   );
-  padding-bottom: 5%;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow: 1;
 }
 .Slider_container {
   width: 100%;
@@ -64,6 +68,7 @@
 .Map_container {
   width: 45%;
   z-index: 100;
+  box-shadow: var(--boxShadow);
 }
 .Concept_container {
 }
