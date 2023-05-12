@@ -1,5 +1,6 @@
+@import "../../utils.css";
 .HomePageContent_container {
-  background: rgb(174, 37, 38);
+  background: var(--colorRed);
   background: radial-gradient(
     circle,
     rgba(174, 37, 38, 1) 0%,
@@ -29,7 +30,7 @@
   z-index: 100;
   height: 50%;
   width: 100%;
-  color: #f3f3f1;
+  color: var(--colorRed);
   position: absolute;
   top: 0;
   display: flex;
