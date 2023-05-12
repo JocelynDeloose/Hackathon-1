@@ -4,6 +4,7 @@
   width: 100%;
   background-image: url("../../assets/ahouuuuuuu.jpeg");
   background-size: cover;
+  display: flex;
 }
 
 .aboutusContainer {
@@ -44,5 +45,5 @@
 }
 
 .linkedinAboutUs {
-    color: red;
+  color: red;
 }

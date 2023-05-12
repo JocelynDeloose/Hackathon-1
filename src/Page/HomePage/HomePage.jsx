@@ -59,34 +59,33 @@ function HomePage() {
       <div className={Style.Body_container}>
         <div className={Style.Text_container}>
           <div className={Style.Concept_container}>
-            <h3 className={Style.Concept_title}>Our Concept</h3>
+            <h3 className={Style.Concept_title}>Notre concept</h3>
             <p className={Style.Concept_paragraph}>
-              If you are looking for an unforgettable experience, our castle is
-              the perfect place for you. Imagine spending a night in a luxurious
-              a luxurious room, decorated in a traditional way, but with a
-              modern a modern touch for added comfort. While staying safely
-              behind the behind the thick walls of the castle, you will be able
-              to hear the the strange noises and screams in the night, witnesses
-              to the ghosts and and vampires that haunt the place. Our unique
-              concept is inspired by the vampire legends of the region, and we
-              have created a experience for the discerning traveler who is
-              looking for something looking for something different. We offer
-              you activities, such as guided tours of the castle at night,
-              vampire hunts vampire hunts and even cooking classes with our
-              renowned renowned chef.
+              Si vous recherchez une expérience inoubliable, notre château est
+              l&apos;endroit idéal pour vous. Imaginez passer une nuit dans une
+              chambre luxueuse , décorée de manière traditionnelle, mais avec
+              une touche moderne pour plus de confort. Tout en restant en
+              sécurité derrière les murs épais du château, vous pourrez entendre
+              les bruits et cris étranges dans la nuit, témoins des fantômes et
+              vampires qui hantent les lieux. Notre concept unique
+              s&apos;inspire des légendes vampiriques de la région et nous avons
+              créé une expérience pour le voyageur averti qui recherche quelque
+              chose de différent. Nous vous proposons des activités, telles que
+              des visites guidées du château la nuit, des chasses aux vampires,
+              des chasses aux vampires et même des cours de cuisine avec notre
+              chef renommé.
             </p>
           </div>
           <div className={Style.Why_container}>
-            <h3 className={Style.Why_title}>Why?</h3>
+            <h3 className={Style.Why_title}>Pourquoi ?</h3>
             <p className={Style.Why_paragraph}>
-              So why come? Why not enjoy a unique and experience that will
-              thrill you while providing the luxury and comfort the luxury and
-              comfort you deserve? Our haunted castle is a true gem, an oasis of
-              calm and mystery in the middle of the in the middle of the
-              wilderness. Book your overnight stay in our haunted castle now in
-              our haunted castle and let yourself be carried away by a unique
-              experience that you will never forget. Translated with
-              www.DeepL.com/Translator (free version)
+              Alors pourquoi venir ? Pourquoi ne pas vivre une expérience unique
+              et qui vous ravira a tous, en vous offrant le luxe et le confort
+              que vous méritez ? Notre château hanté est un véritable joyau, une
+              oasis de calme et de mystère au milieu de la nature sauvage.
+              Réservez dès maintenant votre nuitée dans notre château hanté et
+              laissez-vous emporter par une expérience unique que vous
+              n&apos;oublierez jamais.
             </p>
           </div>
         </div>
