@@ -64,6 +64,7 @@
 .Text_container {
   width: 45%;
   color: var(--colorWhite);
+  font-family: Burton;
 }
 .Map_container {
   width: 45%;

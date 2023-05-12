@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "Bradley_Gratis";
-  src: url("../../assets/Bradley_Gratis.ttf");
-}
-
-
+@import "../../utils.css";
 .navbar {
   display: flex;
   background-color: #181616;
@@ -23,6 +18,9 @@
 }
 .ul_navbar li {
   margin: 3rem;
+  font-family: Burton;
+  font-size: var(--underTitleSize);
+  text-shadow: var(--textShadow);
 }
 a {
   color: white;
@@ -32,9 +30,9 @@ a {
 .logonav {
   width: 100%;
   margin-left: 3rem;
-  font-family: "Bradley_Gratis";
+  font-family: Burton;
   color: red;
-  text-shadow: 3px 3px 6px white;
+  text-shadow: 3px 3px 6px black;
   font-size: 3rem;
   font-weight: bolder;
 }

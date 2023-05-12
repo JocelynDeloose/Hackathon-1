@@ -26,4 +26,6 @@ body {
   text-align: center;
   color: red;
   text-shadow: 3px 3px 6px black;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
