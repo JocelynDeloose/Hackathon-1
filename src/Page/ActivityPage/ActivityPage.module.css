@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 
 body {
-  background: #f2f2f2;
+  background-image: url("../../assets/bgactivity.jpg");
+  background-size: cover;
 }
 
 .activPagContainer {
-  background: #f2f2f2;
+  background: none;
 }
 
 .activity {
-  background: #f2f2f2;
+  background: none;
 }
 /* .container {
   display: flex;
@@ -21,9 +22,8 @@ body {
 
 .titreHead {
   font-family: "Creepster", cursive;
-  text-shadow: 2px, 2px, 2px, white;
-  font-size: 3rem;
+  font-size: var(--titleSize);
   text-align: center;
-  color: red;
-  text-shadow: 3px 3px 6px black;
+  color: var(--colorRed);
+  text-shadow: var(--textShadow);
 }
