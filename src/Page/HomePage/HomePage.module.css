@@ -51,7 +51,7 @@
 }
 .Text_container {
   width: 45%;
-  color: #f3f3f1;
+  color: var(--colorRed);
 }
 .Map_container {
   width: 45%;
