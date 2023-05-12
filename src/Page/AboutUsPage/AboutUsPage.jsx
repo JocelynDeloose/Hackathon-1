@@ -5,6 +5,7 @@ import photoSacha from "../../assets/sacha.png";
 import photoJocelyn from "../../assets/jocelyn.png";
 import photoGriffith from "../../assets/Griffith.png";
 import styleabout from "./AboutUsPage.module.css";
+import { BsLinkedin } from "react-icons/bs";
 
 const arrayOfUs = [
   {
@@ -52,9 +53,7 @@ function AboutUsPage() {
             />
             <h2 className={styleabout.nameAboutUs}>{item.name}</h2>
             <a href={item.linkedin} target="_blank" rel="noreferrer">
-              <span className={styleabout.linkedinAboutUs}>
-                {item.linkedin}
-              </span>
+              <BsLinkedin className={styleabout.linkedinAboutUs} />
             </a>
           </div>
         ))}

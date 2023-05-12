@@ -45,5 +45,7 @@
 }
 
 .linkedinAboutUs {
-  color: red;
+  color: blue;
+  border-radius: 3 rem;
+  font-size: 60px;
 }
