@@ -54,7 +54,7 @@ export default function Activity() {
   return (
     <div className={styles.activityContainer}>
       {arrayOfActivity.map((item) => (
-        <div className={styles.activityCard}>
+        <div className={styles.activityCard} key={item.name}>
           <h1 className={styles.nameActivity}>{item.name}</h1>
           <img
             className={styles.imgActivity}
