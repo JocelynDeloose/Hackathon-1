@@ -27,6 +27,7 @@
   font-family: var(--fontStyle);
   letter-spacing: 2px;
   font-size: var(--titleSize);
+  text-shadow: var(--textShadow);
 }
 .Slider_under_title {
   margin-top: 90px;
@@ -74,17 +75,21 @@
   margin-bottom: 3%;
   margin-top: 3%;
   font-size: var(--littleTitleSize);
+  text-shadow: var(--textShadow);
 }
 .Why_paragraph {
   font-size: var(--paraSize);
+  text-shadow: var(--textShadow);
 }
 .Concept_title {
   text-align: center;
   margin-bottom: 3%;
   font-size: var(--littleTitleSize);
+  text-shadow: var(--textShadow);
 }
 .Concept_paragraph {
   font-size: var(--paraSize);
+  text-shadow: var(--textShadow);
 }
 .leaflet-container {
   width: 100%;
