@@ -2,6 +2,7 @@
 
 :root {
   --colorRed: red;
+  --colorRedOld: rgba(174, 37, 38, 1);
   --colorWhite: #f3f3f1;
   --colorDark: #181616;
   --fontStyle: "Creepster", cursive;
