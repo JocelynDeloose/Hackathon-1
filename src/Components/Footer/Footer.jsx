@@ -8,10 +8,10 @@ function Footer() {
         <div className={styles.wild}>© Wild Code School 2023</div>
         <ul className={styles.list}>
           <li className={styles.nav}>
-            <NavLink to={{pathname: "RulesPage"}}>Rules</NavLink>
+            <NavLink to={{ pathname: "RulesPage" }}>Rules</NavLink>
           </li>
           <li className={styles.nav}>
-            <NavLink to={{pathname: "About-us"}}>About-us</NavLink>
+            <NavLink to={{ pathname: "About-us" }}>About-us</NavLink>
           </li>
         </ul>
       </div>
