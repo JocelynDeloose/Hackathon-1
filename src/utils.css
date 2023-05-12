@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 
 :root {
-  --colorRed: #ae2526;
+  --colorRed: red;
   --colorWhite: #f3f3f1;
   --colorDark: #181616;
   --fontStyle: "Creepster", cursive;
