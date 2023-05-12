@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "./ContactForm.module.css";
-
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     nom: "",
@@ -10,19 +9,16 @@ const ContactForm = () => {
     groupeSanguin: "",
     message: "",
   });
-
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission here
   };
-
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
       <div className={styles.formLeft}>
@@ -61,14 +57,14 @@ const ContactForm = () => {
             <option value="O+">O+</option>
             <option value="O-">O-</option>
           </select>
-      <button type="submit">Envoyer</button>
         </div>
+        <button type="submit">Envoyer</button>
       </div>
     </form>
   );
 };
-
 export default ContactForm;
+
 
 
 

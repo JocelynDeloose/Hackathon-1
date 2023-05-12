@@ -1,14 +1,12 @@
-
 .form {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     max-width: 800px;
-    margin: 100px;
-    
-}
-  
+    margin: 0 auto;
+    margin-top: 10%;
+  }
   
   .form-left {
     width: 60%;
@@ -20,8 +18,9 @@
   
   .formGroup {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
   }
   
   .formGroup label {
@@ -45,7 +44,7 @@
   
   button[type="submit"] {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -55,8 +54,6 @@
   }
   
   button[type="submit"]:hover {
-    background-color: #0069d9;
+    background-color: black;
   }
-  
-  
   
