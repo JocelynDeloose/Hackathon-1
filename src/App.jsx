@@ -21,7 +21,7 @@ function App() {
           <Route path="/reservation" element={<ReservationPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/rules" element={<RulesPage />} />
-          <Route path="/apropos" element={<AboutUsPage />} />
+          <Route path="/aboutus" element={<AboutUsPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
