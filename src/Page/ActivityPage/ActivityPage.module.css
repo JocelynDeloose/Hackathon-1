@@ -3,6 +3,9 @@
 .activPagContainer {
   background-image: url("../../assets/bgactivity.jpg");
   background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .activity {
