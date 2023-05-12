@@ -59,7 +59,15 @@ function ReservationPage() {
               ))}
             </div>
             <div className={style.Reservation_button_container}>
-              <button>Réserver</button>
+              <button
+                onClick={() =>
+                  alert(
+                    "Nous avons bien pris en compte votre réservation et reviendrons vers vous afin de vous la confirmer!! merci à vous."
+                  )
+                }
+              >
+                Réserver
+              </button>
             </div>
           </div>
         ))}

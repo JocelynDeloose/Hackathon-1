@@ -99,7 +99,16 @@ const ContactForm = () => {
               <option value="O-">O-</option>
             </select>
           </div>
-          <button type="submit">Envoyer</button>
+          <button
+            type="submit"
+            onClick={() =>
+              alert(
+                "Nous avons bien pris en compte votre demande de contact et reviendrons vers vous afin de vous la confirmer!! merci à vous."
+              )
+            }
+          >
+            Envoyer
+          </button>
         </div>
       </form>
     </div>
