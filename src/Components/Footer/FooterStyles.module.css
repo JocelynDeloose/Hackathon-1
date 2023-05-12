@@ -1,35 +1,28 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    width: 100%;
-    background-color: black;
-    align-items: center;
-    justify-content: space-between;
-    bottom: 0;
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .wild {
-    color: white;
+  color: white;
 }
 
 .list {
-    display: flex;
-    
+  display: flex;
 }
 
 .nav {
-    display: flex;
-    list-style: none;
-    margin: 10px;
+  display: flex;
+  list-style: none;
+  margin: 10px;
 }

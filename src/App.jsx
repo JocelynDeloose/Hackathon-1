@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import RulesPage from "./Page/RulesPage/RulesPage";
@@ -8,27 +7,21 @@ import HomePage from "./Page/HomePage/HomePage";
 import ActivityPage from "./Page/ActivityPage/ActivityPage";
 import ReservationPage from "./Page/ReservationPage/ReservationPage";
 import ContactPage from "./Page/ContactPage/ContactPage";
-
+import "./App.css";
 function App() {
   return (
     <div>
       <BrowserRouter>
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Footer />}>
-            <Route path="/Rules" element={<RulesPage />} />
-            <Route path="/About-us" element={<AboutUsPage />} />
-          </Route>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/ActivityPage" element={<ActivityPage />} />
+          <Route path="/ReservationPage" element={<ReservationPage />} />
+          <Route path="/ContactPage" element={<ContactPage />} />
+          <Route path="/RulesPage" element={<RulesPage />} />
+          <Route path="/About-us" element={<AboutUsPage />} />
         </Routes>
-      </BrowserRouter>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Navbar />}>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/ActivityPage" element={<ActivityPage />} />
-            <Route path="/ReservationPage" element={<ReservationPage />} />
-            <Route path="/ContactPage" element={<ContactPage />} />
-          </Route>
-        </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
