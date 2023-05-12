@@ -7,6 +7,7 @@
   justify-content: space-between;
   flex-direction: row;
   height: 11vh;
+  letter-spacing: 4px;
 }
 
 .ul_navbar {
@@ -21,6 +22,7 @@
   font-family: Burton;
   font-size: var(--underTitleSize);
   text-shadow: var(--textShadow);
+  letter-spacing: 4px;
 }
 a {
   color: white;

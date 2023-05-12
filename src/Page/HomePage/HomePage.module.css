@@ -29,7 +29,7 @@
   margin-top: 35px;
   color: var(--colorRed);
   font-family: var(--fontStyle);
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   font-size: var(--titleSize);
   text-shadow: var(--textShadow);
 }
@@ -82,6 +82,7 @@
   margin-top: 3%;
   font-size: var(--littleTitleSize);
   text-shadow: var(--textShadow);
+  letter-spacing: 4px;
 }
 .Why_paragraph {
   font-size: var(--paraSize);
@@ -92,6 +93,7 @@
   margin-bottom: 3%;
   font-size: var(--littleTitleSize);
   text-shadow: var(--textShadow);
+  letter-spacing: 4px;
 }
 .Concept_paragraph {
   font-size: var(--paraSize);
