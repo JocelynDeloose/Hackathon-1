@@ -31,12 +31,15 @@
   width: 80%;
   margin-bottom: 10%;
   margin-top: 10%;
+  object-fit: cover;
 }
 .imgActivityCarousel {
   min-height: 69% !important;
   width: 80% !important;
   margin-bottom: 10%;
   margin-top: 10%;
+  height: 50%;
+  /* object-fit: cover !important; */
 }
 .descriptionActivity {
   font-style: italic;
