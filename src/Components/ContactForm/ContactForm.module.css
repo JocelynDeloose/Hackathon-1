@@ -1,0 +1,67 @@
+.form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .formGroup {
+    width: 30%;
+  }
+  
+  .form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  .form input,
+  .form select,
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg width='8' height='5' viewBox='0 0 8 5' fill='%23bbbbbb' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.862 4.594c.187.186.491.186.677 0l3.077-3.068c.187-.186.187-.488 0-.674L7.722.406c-.187-.187-.491-.187-.677 0L4 3.183 1.954 1.136c-.186-.186-.49-.186-.677 0L.277 1.822c-.187.186-.187.488 0 .674l3.077 3.068z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px 5px;
+    padding-right: 30px;
+  }
+  
+  .form textarea {
+    height: 150px;
+  }
+  
+  button[type='submit'] {
+    background-color: #b3c4d8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #90a4bf;
+  }
+  
+  
+  
