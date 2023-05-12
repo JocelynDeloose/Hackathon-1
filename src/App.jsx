@@ -8,6 +8,8 @@ import ActivityPage from "./Page/ActivityPage/ActivityPage";
 import ReservationPage from "./Page/ReservationPage/ReservationPage";
 import ContactPage from "./Page/ContactPage/ContactPage";
 import "./App.css";
+import "./font/Burton.ttf";
+
 function App() {
   return (
     <div>
