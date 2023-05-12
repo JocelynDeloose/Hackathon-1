@@ -1,4 +1,3 @@
-import ActivityCards from "../ActivityCards/ActivityCards";
 import photoCinema from "../../assets/cinema.jpg";
 import photoEscape from "../../assets/escape.jpg";
 import photoCourse from "../../assets/coursedorientation.jpg";
@@ -53,15 +52,18 @@ const arrayOfActivity = [
 
 export default function Activity() {
   return (
-    <div className={styles.container}>
+    <div className={styles.activityContainer}>
       {arrayOfActivity.map((item) => (
-        <ActivityCards
-          key={item.name}
-          name={item.name}
-          img={item.img}
-          description={item.description}
-          durée={item.durée}
-        />
+        <div className={styles.activityCard}>
+          <h1 className={styles.nameActivity}>{item.name}</h1>
+          <img
+            className={styles.imgActivity}
+            src={item.img}
+            alt="activity theme"
+          />
+          <p className={styles.descriptionActivity}>{item.description}</p>
+          <p className={styles.duréeActivity}>{item.durée}</p>
+        </div>
       ))}
     </div>
   );

@@ -1,4 +1,4 @@
-import styles from "./ActivityCards.module.css";
+/* import styles from "./ActivityCards.module.css";
 
 function ActivityCards({ name, img, description, durée }) {
   return (
@@ -11,4 +11,4 @@ function ActivityCards({ name, img, description, durée }) {
   );
 }
 
-export default ActivityCards;
+export default ActivityCards; */
