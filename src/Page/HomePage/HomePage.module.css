@@ -23,7 +23,10 @@
   align-items: center; /** Y-axis align **/
   justify-content: center; /** X-axis align **/
   margin-top: 35px;
-  color: #f3f3f1;
+  color: var(--colorRed);
+  font-family: var(--fontStyle);
+  letter-spacing: 2px;
+  font-size: var(--titleSize);
 }
 .Slider_under_title {
   margin-top: 90px;
@@ -36,6 +39,9 @@
   display: flex;
   align-items: center; /** Y-axis align **/
   justify-content: center; /** X-axis align **/
+  font-family: var(--fontStyle);
+  letter-spacing: 4px;
+  font-size: var(--underTitleSize);
 }
 .Slider_image {
   width: 100%;
@@ -51,7 +57,7 @@
 }
 .Text_container {
   width: 45%;
-  color: var(--colorRed);
+  color: var(--colorWhite);
 }
 .Map_container {
   width: 45%;
@@ -66,14 +72,18 @@
   text-align: center;
   margin-bottom: 3%;
   margin-top: 3%;
+  font-size: var(--littleTitleSize);
 }
 .Why_paragraph {
+  font-size: var(--paraSize);
 }
 .Concept_title {
   text-align: center;
   margin-bottom: 3%;
+  font-size: var(--littleTitleSize);
 }
 .Concept_paragraph {
+  font-size: var(--paraSize);
 }
 .leaflet-container {
   width: 100%;
