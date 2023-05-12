@@ -7,15 +7,16 @@
 
 body {
   background: #f2f2f2;
+  background-image: url("../../assets/istockphoto-155381327-612x612.jpg");
+  background-size: cover;
 }
 
-.activPagContainer {
+/* /* .activPagContainer {
   background: #f2f2f2;
-}
-
-.activity {
+} */
+/* .activity {
   background: #f2f2f2;
-}
+} */
 /* .container {
   display: flex;
   flex-direction: column;

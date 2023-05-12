@@ -45,11 +45,10 @@ const arrayOfActivity = [
     name: "Cache cache",
     img: `${photoHide}`,
     description:
-      "Un jeu pour enfant?? Détrompez-vous, vous allez sentir un frisson vous parcourir la nuque et une bonne suée froide",
+      "Un jeu pour enfant?? Détrompez-vous, vous allez sentir un frisson vous parcourir la nuque ",
     durée: "1h",
   },
 ];
-
 export default function Activity() {
   return (
     <div className={styles.activityContainer}>
