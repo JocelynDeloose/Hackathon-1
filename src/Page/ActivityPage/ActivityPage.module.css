@@ -27,4 +27,5 @@
   text-shadow: var(--textShadow);
   margin-top: 5%;
   margin-bottom: 5%;
+  letter-spacing: 4px;
 }

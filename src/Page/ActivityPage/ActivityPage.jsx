@@ -6,7 +6,7 @@ function ActivityPage() {
     <div className={styles.activPagContainer}>
       <div className={styles.activity}>
         <h1 className={styles.titreHead}>
-          Oserez-vous avoir la plus grande peur de votre vie?
+          Oserez-vous avoir la plus grande peur de votre vie ?
         </h1>
       </div>
       <Activity />
