@@ -4,12 +4,7 @@
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 70%;
-  font-family: Burton;
-  font-size: var(--paraSize);
-  text-shadow: var(--textShadow);
   color: var(--colorWhite);
   border-radius: 15px;
   border-style: solid;
@@ -17,7 +12,12 @@
   box-shadow: var(--boxShadow);
   border-color: var(--colorDark);
   background-color: var(--colorDark);
+  letter-spacing: 4px;
+  margin: 5%;
+  font-size: var(--paraSize);
+  text-shadow: var(--textShadow);
   font-weight: 400;
+  font-family: Burton;
 }
 .text h2 {
   color: var(--colorWhite);
