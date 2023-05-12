@@ -3,7 +3,7 @@
 .text {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-flow: column wrap;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   width: 70%;
@@ -13,9 +13,7 @@
   color: var(--colorWhite);
   border-radius: 15px;
   border-style: solid;
-  height: 80vh;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding: 30px;
   box-shadow: var(--boxShadow);
   border-color: var(--colorDark);
   background-color: var(--colorDark);
