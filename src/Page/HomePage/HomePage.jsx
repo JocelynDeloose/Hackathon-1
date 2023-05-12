@@ -40,7 +40,9 @@ function HomePage() {
     <div className={Style.HomePageContent_container}>
       <div className={Style.Slider_container}>
         <h1 className={Style.Slider_title}>BloodyCastle</h1>
-        <h2 className={Style.Slider_under_title}>Will you dare to go there?</h2>
+        <h2 className={Style.Slider_under_title}>
+          Une expérience que vous n&apos;oublierez pas de sitôt !
+        </h2>
         <Carousel
           showArrows={false}
           showStatus={false}

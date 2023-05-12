@@ -5,22 +5,25 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  height: 7vh;
 }
 
 .ul_navbar {
   display: flex;
-  justify-content: space-around;
-  width: 50%;
+  justify-content: flex-end;
   list-style-type: none;
   align-items: center;
+  width: 100%;
 }
-
+.ul_navbar li {
+  margin: 3rem;
+}
 a {
   color: white;
   text-decoration: none;
 }
 
 .logonav {
-  height: 80px;
+  height: 60px;
   margin-left: 10px;
 }
