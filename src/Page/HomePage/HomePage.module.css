@@ -42,6 +42,7 @@
   font-family: var(--fontStyle);
   letter-spacing: 4px;
   font-size: var(--underTitleSize);
+  text-shadow: var(--textShadow);
 }
 .Slider_image {
   width: 100%;
