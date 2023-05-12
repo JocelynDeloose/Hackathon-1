@@ -1,7 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+@import "../../utils.css";
 
 .text {
   display: flex;
@@ -9,6 +6,39 @@
   flex-direction: column;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 70%;
+  font-family: Burton;
+  font-size: var(--paraSize);
+  text-shadow: var(--textShadow);
+  color: var(--colorWhite);
+  border-radius: 15px;
+  border-style: solid;
+  height: 80vh;
+  padding-right: 30px;
+  padding-left: 30px;
+  box-shadow: var(--boxShadow);
+  border-color: var(--colorDark);
+  background-color: var(--colorDark);
+}
+.text h2 {
+  color: var(--colorWhite);
+  font-size: var(--underTitleSize);
+  font-family: Burton;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.rules_container {
+  display: flex;
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
+  background: var(--colorRed);
+  background: radial-gradient(
+    circle,
+    rgba(174, 37, 38, 1) 0%,
+    rgba(24, 22, 22, 0.9417016806722689) 100%
+  );
 }
