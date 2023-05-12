@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 
+@font-face {
+  font-family: "Burton";
+  src: url("../src/font/Burton.ttf");
+}
+
 :root {
   --colorRed: red;
   --colorRedOld: rgba(174, 37, 38, 1);
@@ -10,7 +15,11 @@
   --titleSize: 2.5rem;
   --underTitleSize: 1.8rem;
   --littleTitleSize: 1.3rem;
-  --paraSize: 1rem;
+  --paraSize: 1.5rem;
   --boxShadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.29);
   --textShadow: 3px 3px 6px black;
+}
+
+body {
+  font-family: "Burton";
 }
