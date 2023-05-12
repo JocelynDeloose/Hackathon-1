@@ -11,7 +11,7 @@ function Footer() {
             <NavLink to={{ pathname: "RulesPage" }}>Rules</NavLink>
           </li>
           <li className={styles.nav}>
-            <NavLink to={{ pathname: "About-us" }}>About-us</NavLink>
+            <NavLink to={{ pathname: "About-us" }}>About Us</NavLink>
           </li>
         </ul>
       </div>
