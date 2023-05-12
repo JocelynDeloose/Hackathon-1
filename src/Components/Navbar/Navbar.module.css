@@ -25,6 +25,7 @@
   font-size: var(--underTitleSize);
   text-shadow: var(--textShadow);
   letter-spacing: 4px;
+  font-weight: bolder;
 }
 a {
   color: white;

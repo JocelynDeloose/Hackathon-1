@@ -9,6 +9,7 @@
   font-size: var(--littleTitleSize);
   text-shadow: var(--textShadow);
   letter-spacing: 4px;
+  font-weight: bolder;
 }
 
 a {
@@ -16,6 +17,7 @@ a {
   text-decoration: none;
   margin-left: 12px;
   margin-right: 12px;
+  font-weight: bolder;
 }
 
 .wild {

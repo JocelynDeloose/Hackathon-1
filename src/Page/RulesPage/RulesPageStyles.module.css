@@ -17,6 +17,7 @@
   box-shadow: var(--boxShadow);
   border-color: var(--colorDark);
   background-color: var(--colorDark);
+  font-weight: 400;
 }
 .text h2 {
   color: var(--colorWhite);

@@ -80,9 +80,10 @@
   text-align: center;
   margin-bottom: 3%;
   margin-top: 3%;
-  font-size: var(--littleTitleSize);
+  font-size: var(--underTitleSize);
   text-shadow: var(--textShadow);
   letter-spacing: 4px;
+  font-weight: bolder;
 }
 .Why_paragraph {
   font-size: var(--paraSize);
@@ -91,13 +92,15 @@
 .Concept_title {
   text-align: center;
   margin-bottom: 3%;
-  font-size: var(--littleTitleSize);
+  font-size: var(--underTitleSize);
   text-shadow: var(--textShadow);
   letter-spacing: 4px;
+  font-weight: bolder;
 }
 .Concept_paragraph {
   font-size: var(--paraSize);
   text-shadow: var(--textShadow);
+  font-weight: 400;
 }
 .leaflet-container {
   width: 100%;
