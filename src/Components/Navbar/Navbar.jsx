@@ -1,13 +1,12 @@
 import { Outlet, NavLink } from "react-router-dom";
 import style from "./Navbar.module.css";
-import logo from "../../assets/mmlogo.png";
 
 function Navbar() {
   return (
     <>
       <nav className={style.navbar}>
-        <NavLink to={{ pathname: "/" }}>
-          <img src={logo} className={style.logonav} alt="bclogo" />
+        <NavLink to={{ pathname: "/" }} className={style.logonav}>
+          Bloody Castle
         </NavLink>
         <ul className={style.ul_navbar}>
           <li>
