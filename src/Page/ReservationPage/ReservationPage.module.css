@@ -5,6 +5,12 @@
   align-items: center;
   min-height: 100vh;
   flex-grow: 1;
+  background: var(--colorRed);
+  background: radial-gradient(
+    circle,
+    rgba(174, 37, 38, 1) 0%,
+    rgba(24, 22, 22, 0.9417016806722689) 100%
+  );
 }
 
 .Reservation_cards_container {
@@ -23,9 +29,16 @@
   display: flex;
   flex-direction: column;
   border-style: solid;
-  border-radius: 15px;
-}
+  border-width: 2px;
 
+  border-radius: 15px;
+  background-color: var(--colorWhite);
+  box-shadow: var(--boxShadow);
+}
+.Reservation_h3_container h3 {
+  font-size: var(--paraSize);
+  font-weight: bold;
+}
 .Reservation_card_img {
   height: 40%;
   width: 100%;
@@ -40,6 +53,12 @@
   align-items: center;
   flex: 0 0 auto;
   border-bottom-style: groove;
+  border-width: 1px;
+  border-color: var(--colorDark);
+  height: 10%;
+  justify-content: center;
+  font-size: var(--paraSize);
+  font-weight: bold;
 }
 
 .Reservation_logo_container {
@@ -48,6 +67,8 @@
   flex-wrap: wrap;
   flex: 0 0 auto;
   border-bottom-style: groove;
+  border-width: 1px;
+  border-color: var(--colorDark);
 }
 
 .Reservation_logo_container img {
@@ -61,7 +82,14 @@
   justify-content: center;
   flex-grow: 1;
 }
-
+.Reservation_button_container button {
+  background-color: var(--colorRedOld);
+  border-radius: 5px;
+  font-size: var(--littleTitleSize);
+  padding: 10px;
+  color: var(--colorWhite);
+  font-weight: bold;
+}
 .Reservation_journey_container {
   display: flex; /* add this */
   flex-grow: 1;
