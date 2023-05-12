@@ -75,12 +75,17 @@
   width: 20px;
   margin: 10%;
 }
-
+.Reservation_button_container span {
+  font-size: var(--paraSize);
+  font-weight: bold;
+}
 .Reservation_button_container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-grow: 1;
+  flex-direction: column;
+  text-align: center;
 }
 .Reservation_button_container button {
   background-color: var(--colorRedOld);

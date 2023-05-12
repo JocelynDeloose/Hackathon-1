@@ -59,6 +59,7 @@ function ReservationPage() {
               ))}
             </div>
             <div className={style.Reservation_button_container}>
+              <span>Seulement les 31 février </span>
               <button
                 onClick={() =>
                   alert(
