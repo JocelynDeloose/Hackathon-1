@@ -5,15 +5,22 @@
   background-color: #181616;
   align-items: center;
   justify-content: space-between;
+  font-family: Burton;
+  font-size: var(--littleTitleSize);
+  text-shadow: var(--textShadow);
+  letter-spacing: 4px;
 }
 
 a {
   color: white;
   text-decoration: none;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .wild {
   color: white;
+  margin-left: 12px;
 }
 
 .list {

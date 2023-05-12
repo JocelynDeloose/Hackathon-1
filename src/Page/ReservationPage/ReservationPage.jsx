@@ -34,19 +34,7 @@ const rooms = [
     ],
   },
 ];
-const journey = [
-  { time: "08:00", example: "Exemple" },
-  { time: "10:00", example: "Exemple" },
-  { time: "12:00", example: "Exemple" },
-  { time: "14:00", example: "Exemple" },
-  { time: "16:00", example: "Exemple" },
-  { time: "18:00", example: "Exemple" },
-  { time: "20:00", example: "Exemple" },
-  { time: "22:00", example: "Exemple" },
-  { time: "24:00", example: "Exemple" },
-  { time: "02:00", example: "Exemple" },
-  { time: "04:00", example: "Exemple" },
-];
+
 function ReservationPage() {
   return (
     <section className={style.Reservation_container}>
@@ -75,15 +63,6 @@ function ReservationPage() {
             </div>
           </div>
         ))}
-        <div className={style.Reservation_journey_container}>
-          <h2>Journée type</h2>
-          {journey.map(({ time, example }) => (
-            <div className={style.Reservation_journey_exemple} key={time}>
-              <span>{time}</span>
-              <span>{example}</span>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
