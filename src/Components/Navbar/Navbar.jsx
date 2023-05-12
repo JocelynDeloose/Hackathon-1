@@ -10,13 +10,13 @@ function Navbar() {
         </NavLink>
         <ul className={style.ul_navbar}>
           <li>
-            <NavLink to={{ pathname: "ActivityPage" }}>Activités</NavLink>
+            <NavLink to={{ pathname: "activity" }}>Activités</NavLink>
           </li>
           <li>
-            <NavLink to={{ pathname: "ReservationPage" }}>Réservation</NavLink>
+            <NavLink to={{ pathname: "reservation" }}>Réservation</NavLink>
           </li>
           <li>
-            <NavLink to={{ pathname: "ContactPage" }}>Contact</NavLink>
+            <NavLink to={{ pathname: "contact" }}>Contact</NavLink>
           </li>
         </ul>
       </nav>
