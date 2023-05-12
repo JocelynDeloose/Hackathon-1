@@ -5,7 +5,10 @@ import photoHide from "../../assets/hideandseek.jpeg";
 import photoImmun from "../../assets/immunity.jpeg";
 import photoChasse from "../../assets/chasseautresor.jpg";
 import styles from "./Activity.module.css";
-
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import { useEffect, useState } from "react";
+import axios from "axios";
 const arrayOfActivity = [
   {
     name: "Escape Game",
@@ -49,18 +52,57 @@ const arrayOfActivity = [
     durée: "1h",
   },
 ];
-
 export default function Activity() {
+  const [movies, setMovies] = useState([]);
+
+  async function fetchCinema() {
+    try {
+      const data = await axios.get(
+        "https://www.omdbapi.com/?s=Paranormal&page=2&i=tt3896198&apikey=ab9cc8e4"
+      );
+      setMovies(data.data.Search);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  useEffect(() => {
+    fetchCinema();
+  }, []);
   return (
     <div className={styles.activityContainer}>
       {arrayOfActivity.map((item) => (
         <div className={styles.activityCard} key={item.name}>
           <h1 className={styles.nameActivity}>{item.name}</h1>
-          <img
-            className={styles.imgActivity}
-            src={item.img}
-            alt="activity theme"
-          />
+          {item.name === "Cinema" ? (
+            <Carousel
+              dynamicHeight={false}
+              showArrows={true}
+              showStatus={false}
+              autoPlay={true}
+              showThumbs={false}
+              width="100%"
+              centerSlidePercentage={5}
+              infiniteLoop={true}
+              interval={2000}
+            >
+              {movies?.map((movie) => (
+                <img
+                  key={movie.Title}
+                  className={styles.imgActivityCarousel}
+                  src={movie?.Poster}
+                  alt="activity theme"
+                />
+              ))}
+              {/* <img className={Style.Slider_image} src={haunted} />
+              <img className={Style.Slider_image} src={haunted2} /> */}
+            </Carousel>
+          ) : (
+            <img
+              className={styles.imgActivity}
+              src={item.img}
+              alt="activity theme"
+            />
+          )}
           <p className={styles.descriptionActivity}>{item.description}</p>
           <p className={styles.duréeActivity}>{item.durée}</p>
         </div>
