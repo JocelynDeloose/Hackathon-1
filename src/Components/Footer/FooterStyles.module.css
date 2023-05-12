@@ -1,0 +1,28 @@
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.wild {
+  color: white;
+}
+
+.list {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+}
