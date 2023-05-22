@@ -14,13 +14,13 @@ const arrayOfActivity = [
     name: "Escape Game",
     img: `${photoEscape}`,
     description:
-      "Vous et votre équipe devaient trouver la clé permettant d'ouvrir la porte de sortie en resolvant tous un tas d'enigmes plus torduent les une des autres",
+      "Au sein de votre équipe, vous devez trouver la clé permettant d'ouvrir la porte de sortie en résolvant un tas d'énigmes toutes plus tordues les unes que les autres",
     durée: "1h30",
   },
   {
-    name: "Cinema",
+    name: "Cinéma",
     img: `${photoCinema}`,
-    description: "Un choix de film d'horreur à vous faire frissonner",
+    description: "Un choix de films d'horreur à vous faire frissonner",
     durée: "~2h",
   },
   {
@@ -28,27 +28,27 @@ const arrayOfActivity = [
     img: `${photoImmun}`,
     description:
       "L'épreuve la plus froide de cette aventure, battez-vous pour la réussir",
-    durée: "1H",
+    durée: "1h",
   },
   {
     name: "Course d'orientation",
     img: `${photoCourse}`,
     description:
-      "Une course d'orientation à travers une foret où vous n'avez pas envie de vous retrouvez seul",
+      "Une course d'orientation à travers une foret où vous n'avez pas envie de vous retrouver seul",
     durée: "3h",
   },
   {
     name: "Chasse aux trésors",
     img: `${photoChasse}`,
     description:
-      "Pendant tout le long de votre aventure, vous pourrez prendre du temps afin de trouver deux objets qui vous assurerons un avantage certain, pensez-y cela pourrait vous sauvez la vie",
-    durée: "pas de durée",
+      "Tout le long de votre aventure, vous pourrez prendre du temps afin de trouver deux objets qui vous assureront un avantage certain, pensez-y, cela pourrait vous sauver la vie",
+    durée: "Pas de durée",
   },
   {
-    name: "Cache cache",
+    name: "Cache-cache",
     img: `${photoHide}`,
     description:
-      "Un jeu pour enfant?? Détrompez-vous, vous allez sentir un frisson vous parcourir la nuque et une bonne suée froide",
+      "Un jeu pour enfants ? Détrompez-vous, vous allez sentir un frisson vous parcourir la nuque et une bonne suée froide",
     durée: "1h",
   },
 ];
