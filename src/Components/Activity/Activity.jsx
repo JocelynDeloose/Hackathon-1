@@ -73,7 +73,7 @@ export default function Activity() {
       {arrayOfActivity.map((item) => (
         <div className={styles.activityCard} key={item.name}>
           <h1 className={styles.nameActivity}>{item.name}</h1>
-          {item.name === "Cinema" ? (
+          {item.name === "Cinéma" ? (
             <Carousel
               dynamicHeight={false}
               showArrows={true}
